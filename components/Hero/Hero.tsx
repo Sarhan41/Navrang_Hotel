@@ -8,12 +8,12 @@ const Hero = () => {
 
 
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-28 pb-32 md:gap-48 lg:py-20 xl:flex-row">
+    <section className="max-container padding-container flex flex-col gap-20  mt-6 py-28 pb-32 md:gap-48 lg:py-20 xl:flex-row">
       <div className="hero-map" />
 
       <div className="relative  flex flex-1 flex-col xl:w-1/2">
         <Image 
-          src="/chef.png"
+          src="/Chef.png"
           alt="chef"
           width={50}
           height={50}
