@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Button from '../Button';
 import Link from 'next/link';
 import HeroPhoto from './HeroPhoto';
+import { PiPizza } from 'react-icons/pi';
 
 const Hero = () => {
 
@@ -43,10 +44,11 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-col w-full gap-3 sm:flex-row">
+        <div className="flex flex-col w-full gap-3 sm:flex-row ">
           <Link target="_blank" href={"https://www.zomato.com/ahmedabad/navrang-sandwich-pizza-sabarmati/order"}>
-            <Button 
+          <Button 
               type="button" 
+              icon={<PiPizza className="h-8 w-14" />}
               title="Hungry? Order Now" 
               variant="btn_green" 
             />
