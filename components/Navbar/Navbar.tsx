@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav
       className={`w-screen flex paddingX   py-2 top-0 fixed z-20 ${
-        scroll ? "bg-green-100" : "bg-transparent"
+        scroll ? "bg-blue-100" : "bg-transparent"
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
