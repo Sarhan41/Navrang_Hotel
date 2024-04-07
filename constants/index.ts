@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { url: '/', key: 'home', name: 'Home' },
-  { url: '#about', key: 'About', name: 'About' },
+  { url: '#food', key: 'Food', name: 'Food' },
   { url: '#menu', key: 'Menu', name: 'Menu' },
   { url: '#gallery', key: 'Gallery', name: 'Gallery' },
   { url: '#contact', key: 'contact_us', name: 'Contact Us' },
@@ -13,6 +13,15 @@ export const PEOPLE_URL = [
   '/person-2.png',
   '/person-3.png',
   '/person-4.png',
+];
+// FOOD SECTION
+export const FOOD_ITEMS = [
+  {
+    title: "Italian Pizza [6 inches]",
+    subtitle: "Navarang Fastood, Ahmedabad",
+    peopleJoined: "5000+ Orders Served",
+  },
+
 ];
 
 // FEATURES SECTION

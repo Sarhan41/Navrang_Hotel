@@ -52,6 +52,7 @@ const Navbar = () => {
           >
             {NAV_LINKS.map((link) => (
               <Link
+              scroll={true}
                 href={link.url}
                 key={link.name}
                 className={`text-xl font-medium ${

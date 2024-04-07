@@ -131,8 +131,8 @@ body {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
-  /* Camp */
-  .camp-quote {
+  /* Food */
+  .food-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
   }
 
