@@ -5,15 +5,15 @@ import Image from "next/image";
 
 const FoodItems = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
+    <section id="menu" className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/phone.png"
+            src="/Chinise.jpg"
             alt="phone"
             width={440}
             height={1000}
-            className="feature-phone"
+            className="feature-Chinise absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex 3xl:left-20 filter brightness-90 border-20 transition-transform duration-300 hover:scale-105"
           />
         </div>
 

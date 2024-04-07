@@ -27,7 +27,7 @@ export const FOOD_ITEMS = [
 // FEATURES SECTION
 export const FoodMenu = [
   {
-    title: 'Real maps can be offline',
+    title: 'Chinise Noodles',
     icon: '/map.svg',
     variant: 'green',
     description:

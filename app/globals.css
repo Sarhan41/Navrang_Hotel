@@ -137,7 +137,7 @@ body {
   }
 
   /* Feature */
-  .feature-phone {
+  .feature-Chinise {
     @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
   }
 

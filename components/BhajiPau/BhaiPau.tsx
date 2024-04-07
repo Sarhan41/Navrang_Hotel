@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const BhajiPau = () => {
   return (
-    <section id="bhajiPau" className="flexCenter flex-col bg-gray-100 py-16 lg:py-24">
+    <section
+      id="bhajiPau"
+      className="flexCenter flex-col bg-gray-100 py-16 lg:py-24"
+    >
       <div className="padding-container max-container w-full mb-12">
         <div className="flex items-center mb-8">
           <Image src="/chef.png" alt="chef" width={50} height={50} />
@@ -11,13 +14,15 @@ const BhajiPau = () => {
           </h3>
         </div>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Enjoy Delicious Meals
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[590px]">
+            Enjoy <br />
+            <span>Delicious Meals</span>
           </h2>
           <p className="regular-16 text-gray-600 xl:max-w-[520px]">
             Start a yummy hunger killer journey with navrang. No need to worry
-            about getting Hungry - we've got your choice! Gather your friends
-            and family, and come enjoy our tasty dishes at our
+            about getting Hungry -{" "}
+            <span className="font-mono">'we've got your choice!'</span> Gather
+            your friends and family, and come enjoy our tasty dishes at our
             delicious-smelling restaurant.
           </p>
         </div>
