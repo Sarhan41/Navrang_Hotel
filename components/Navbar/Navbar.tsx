@@ -44,7 +44,6 @@ const Navbar = () => {
     className="text-white cursor-pointer flex items-center"
   >
     <Image src="/logo.png" height={29} width={45} alt="logo" />
-  </Link>
   <h3 className="font-mono font-bold text-3xl ml-3 text-white">
     <span className="text-green-400">N</span>
     <span className="text-blue-400">A</span>
@@ -54,6 +53,8 @@ const Navbar = () => {
     <span className="text-indigo-400">N</span>
     <span className="text-gray-400">G</span>
   </h3>
+  </Link>
+
 </div>
 
         <div className="flex gap-16">
