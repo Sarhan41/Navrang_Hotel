@@ -40,7 +40,7 @@ const Contact = () => {
               variant="btn_green" 
             />
           </Link>
-          <Link target="_blank" href={`https://wa.me/918511416680`} passHref>
+          <Link target="_blank" href={`https://wa.me/917041044294`} passHref>
             <Button
               type="button"
               icon={<FaWhatsapp className="h-10 w-14" />}
