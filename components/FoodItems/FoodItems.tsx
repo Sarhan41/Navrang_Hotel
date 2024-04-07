@@ -20,8 +20,8 @@ const FoodItems = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <Image
-              src="/chef.png"
-              alt="chef"
+              src="/Chef.png"
+              alt=""
               width={50}
               height={50}
               className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"

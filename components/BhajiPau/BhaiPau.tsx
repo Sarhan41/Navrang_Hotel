@@ -8,7 +8,7 @@ const BhajiPau = () => {
     >
       <div className="padding-container max-container w-full mb-12">
         <div className="flex items-center mb-8">
-          <Image src="/chef.png" alt="chef" width={50} height={50} />
+          <Image src="/Chef.png" alt="" width={50} height={50} />
           <h3 className="uppercase regular-18 ml-3 text-green-500">
             Taste Our Yummy Food
           </h3>

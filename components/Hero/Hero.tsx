@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="relative  flex flex-1 flex-col xl:w-1/2">
         <Image 
           src="/Chef.png"
-          alt="chef"
+          alt=""
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
