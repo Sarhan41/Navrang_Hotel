@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Travel',
-  description: 'Travel UI/UX App for Camping',
+  title: 'Navrang Sandwich & Pizza',
+  description: 'Kill Your Hunger with Navrang Sandwich & Pizza',
 }
 
 export default function RootLayout({
