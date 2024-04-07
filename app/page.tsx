@@ -1,7 +1,17 @@
-import Image from "next/image";
+import Featured from "@/components/Featured";
+import Hero from "@/components/Hero";
+import Menu from "@/components/Menu";
+import Services from "@/components/Services";
+import Survey from "@/components/Survey";
 
 export default function Home() {
   return (
-  <main></main>
+    <main>
+      <Hero />
+      <Featured />
+      <Services />
+      <Menu />
+      <Survey />
+    </main>
   );
 }
