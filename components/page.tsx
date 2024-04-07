@@ -1,17 +1,17 @@
-import Camp from "@/components/Food/Food";
-import Features from "@/components/Features";
+import Food from "@/components/Food/Food";
 import GetApp from "@/components/GetApp";
-import Guide from "@/components/Guide";
 import Hero from "@/components/Hero/Hero";
+import BhajiPau from "@/components/BhajiPau/BhaiPau";
+import FoodItems from "@/components/FoodItems/FoodItems";
 
 
 export default function Home() {
   return (
     <>
     <Hero />
-    <Camp />
-    <Guide />
-    <Features />
+    <Food />
+    <BhajiPau />
+    <FoodItems />
     <GetApp />
   </>
   );
