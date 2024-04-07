@@ -33,17 +33,29 @@ const Navbar = () => {
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          scroll={false}
-          href="/"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-          className="text-white cursor-pointer"
-        >
-          <Image src="/logo.png" height={29} width={45} alt="logo"/>
-        </Link>
+      <div className="flex items-center">
+  <Link
+    scroll={false}
+    href="/"
+    onClick={() => {
+      setActive("");
+      window.scrollTo(0, 0);
+    }}
+    className="text-white cursor-pointer flex items-center"
+  >
+    <Image src="/logo.png" height={29} width={45} alt="logo" />
+  </Link>
+  <h3 className="font-mono font-bold text-3xl ml-3 text-white">
+    <span className="text-green-400">N</span>
+    <span className="text-blue-400">A</span>
+    <span className="text-red-400">V</span>
+    <span className="text-yellow-400">R</span>
+    <span className="text-purple-400">A</span>
+    <span className="text-indigo-400">N</span>
+    <span className="text-gray-400">G</span>
+  </h3>
+</div>
+
         <div className="flex gap-16">
           {/* Desktop Navigation */}
           <ul

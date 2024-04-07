@@ -2,8 +2,8 @@
 export const NAV_LINKS = [
   { url: '/', key: 'home', name: 'Home' },
   { url: '#food', key: 'Food', name: 'Food' },
+  { url: '#bhajiPau', key: 'Taste', name: 'Taste' },
   { url: '#menu', key: 'Menu', name: 'Menu' },
-  { url: '#gallery', key: 'Gallery', name: 'Gallery' },
   { url: '#contact', key: 'contact_us', name: 'Contact Us' },
 ];
 
@@ -25,7 +25,7 @@ export const FOOD_ITEMS = [
 ];
 
 // FEATURES SECTION
-export const FEATURES = [
+export const FoodMenu = [
   {
     title: 'Real maps can be offline',
     icon: '/map.svg',

@@ -1,8 +1,8 @@
 import Food from "@/components/Food/Food";
-import Features from "@/components/Features";
 import GetApp from "@/components/GetApp";
-import Guide from "@/components/Guide";
 import Hero from "@/components/Hero/Hero";
+import BhajiPau from "@/components/BhajiPau/BhaiPau";
+import FoodItems from "@/components/FoodItems/FoodItems";
 
 
 export default function Home() {
@@ -10,8 +10,8 @@ export default function Home() {
     <>
      <Hero />
      <Food /> 
-    <Guide /> 
-    <Features />
+    <BhajiPau /> 
+    <FoodItems />
     <GetApp /> 
   </>
   );
