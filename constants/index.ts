@@ -27,35 +27,34 @@ export const FOOD_ITEMS = [
 // FEATURES SECTION
 export const FoodMenu = [
   {
-    title: 'Chinise Noodles',
-    icon: '/map.svg',
-    variant: 'green',
+    title: 'Manchurian Noodles',
+    icon: '/manchurian-noodles.jpg',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Delicious noodles tossed with vegetables and Manchurian sauce, a perfect blend of spicy and tangy flavors.',
+    price: '₹130',
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
+    title: 'Paneer Noodles',
+    icon: '/paneer-noodles.jpg',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      'Tempting noodles cooked with succulent pieces of paneer (Indian cottage cheese) and aromatic spices.',
+    price: '₹145',
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
+    title: 'Schezwan Noodles',
+    icon: '/schezwan-noodles.jpg',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Spicy and flavorful noodles prepared with Schezwan sauce and assorted vegetables, a favorite among spice lovers.',
+    price: '₹115',
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
+    title: 'Bombay Chinese Bhel',
+    icon: '/chinice-bhel.jpg',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'A unique fusion snack combining the flavors of Indian and Chinese cuisines, featuring crispy noodles, vegetables, and tangy sauces.',
+    price: '₹170',
   },
 ];
-
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {

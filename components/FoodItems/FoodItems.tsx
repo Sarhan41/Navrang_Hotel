@@ -30,12 +30,12 @@ const FoodItems = () => {
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FoodMenu.map((food) => (
-              // Pass props to Food component
               <Food
                 key={food.title}
                 title={food.title}
                 icon={food.icon}
                 description={food.description}
+                price={food.price}
               />
             ))}
           </ul>
