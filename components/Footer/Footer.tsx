@@ -5,42 +5,65 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 py-8  lg:py-4">
-      <div className="container mx-auto flex items-center ml-8 justify-between px-4 lg:px-0 gap-10   flex-wrap">
-        <Link href="/" className="mb-4 lg:mb-0">
-          <Image src="/Chef.png" alt="logo" width={90} height={24} />
-        </Link>
-        <div className="flex flex-col mr-16 flex-wrap gap-8">
-          <div className="flex flex-col gap-2">
-            <h4 className="text-gray-800 text-sm font-semibold mb-2">Contact Us</h4>
-            <ul className="text-gray-600">
-              {FOOTER_CONTACT_INFO.links.map((link, index) => (
-                <li key={index} className="flex items-center">
-                  <span className="mr-1">{link.label}:</span>
-                  <a href={`tel:${link.value}`} className="text-gray-700 hover:text-gray-800 transition-colors duration-300">
-                    {link.value}
-                  </a>
-                </li>
-              ))}
-            </ul>
+    <footer className="bg-gray-200 py-8 lg:py-4">
+      <div className="container mx-auto px-4 lg:px-0">
+        <div className="flex flex-wrap items-center justify-between gap-8">
+          <div className="flex gap-10">
+
+          <Link href="/" className="mb-4 lg:mb-0">
+            <Image src="/Chef.png" alt="logo" width={90} height={24} />
+          </Link>
+          <div className="text-black max-w-md flex flex-col items-center">
+            <span className="mr-1">Address</span>
+            <div className="text-gray-700 hover:text-gray-800 transition-colors duration-300">
+              H H Patel School Office, Ram Nagar <br /> Sabarmati, Ahmedabad, Gujarat
+              380005
+            </div>
           </div>
-          <div className="flex flex-col flex-wrap gap-2 ">
-            <h4 className="text-gray-800 text-sm font-semibold mb-2">Social Media</h4>
-            <ul className="flex gap-4">
-              {SOCIALS.links.map((link, index) => (
-                <li key={index}>
-                  <a href={link.link} target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src={link.icon}
-                      alt="social icon"
-                      width={20}
-                      height={20}
-                      className="rounded-full"
-                    />
-                  </a>
-                </li>
-              ))}
-            </ul>
+          </div>
+          <div className="flex flex-wrap gap-8">
+            <div className="flex flex-col gap-2">
+              <h4 className="text-gray-800 text-sm font-semibold mb-2">
+                Contact Us
+              </h4>
+              <ul className="text-gray-600">
+                {FOOTER_CONTACT_INFO.links.map((link, index) => (
+                  <li key={index} className="flex items-center">
+                    <span className="mr-1">{link.label}:</span>
+                    <a
+                      href={`tel:${link.value}`}
+                      className="text-gray-700 hover:text-gray-800 transition-colors duration-300"
+                    >
+                      {link.value}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h4 className="text-gray-800 text-sm font-semibold mb-2">
+                Social Media
+              </h4>
+              <ul className="flex gap-4">
+                {SOCIALS.links.map((link, index) => (
+                  <li key={index}>
+                    <a
+                      href={link.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Image
+                        src={link.icon}
+                        alt="social icon"
+                        width={20}
+                        height={20}
+                        className="rounded-full"
+                      />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
