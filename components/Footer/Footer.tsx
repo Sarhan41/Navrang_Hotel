@@ -13,8 +13,8 @@ const Footer = () => {
           <Link href="/" className="mb-4 lg:mb-0">
             <Image src="/Chef.png" alt="logo" width={90} height={24} />
           </Link>
-          <div className="text-black max-w-md flex flex-col items-center">
-            <span className="mr-1">Address</span>
+          <div className="max-w-md flex flex-col items-center">
+            <span className="text-gray-800 text-sm font-semibold mb-2">Address</span>
             <div className="text-gray-700 hover:text-gray-800 transition-colors duration-300">
               H H Patel School Office, Ram Nagar <br /> Sabarmati, Ahmedabad, Gujarat
               380005
