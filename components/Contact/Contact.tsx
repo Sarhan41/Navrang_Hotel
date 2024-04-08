@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="flex-1 bg-white items-center bg-opacity-75 mr-8 p-6 rounded-lg">
           <div className="aspect-w-16 aspect-h-9 items-center h-full ">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.3267016394734!2d72.58787157500537!3d23.085133413991294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e832c58aae111%3A0x9a6b1439deda7731!2sNavrang%20sandwich%20and%20pizza!5e0!3m2!1sen!2sin!4v1712513421536!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d229.39573794812551!2d72.59145472473367!3d23.08494642461101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e83eb2a6135dd%3A0xeed7b3d161245588!2sShree%20Navrang%20Bhajipav%20Pulav%20%26%20Chinese!5e0!3m2!1sen!2sin!4v1712577779786!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -62,6 +62,7 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
+
           </div>
         </div>
       </div>

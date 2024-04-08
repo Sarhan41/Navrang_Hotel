@@ -16,8 +16,7 @@ const Footer = () => {
           <div className="max-w-md flex flex-col items-center">
             <span className="text-gray-800 text-sm font-semibold mb-2">Address</span>
             <div className="text-gray-700 hover:text-gray-800 transition-colors duration-300">
-              H H Patel School Office, Ram Nagar <br /> Sabarmati, Ahmedabad, Gujarat
-              380005
+            Maheshwari Complex, near panchil hospital, Ram Nagar <br /> Sabarmati, Ahmedabad, Gujarat 380005
             </div>
           </div>
           </div>
