@@ -95,8 +95,8 @@ const Navbar = () => {
 
           <ul
             className={`
-       ${toggle ? "flex absolute" : "hidden"}
-       flex flex-col gap-2 p-6 Navmenu top-20 right-0 mx-4 my-2 min-w-[140px] z-50 rounded-xl shadow-lg list-none border border-orange-50`}
+       ${toggle ? "flex absolute z-50" : "hidden"}
+       flex flex-col gap-2 p-6  top-20 right-0 mx-4 my-2 min-w-[140px] bg-slate-300 z-50 rounded-xl shadow-lg list-none border border-orange-50`}
           >
             {NAV_LINKS.map((link) => (
               <Link
