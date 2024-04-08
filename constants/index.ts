@@ -61,8 +61,8 @@ export const FoodMenu = [
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
-    { label: "Owner", value: "123-456-789" },
-    { label: "Staff", value: "123-456-789" },
+    { label: "Owner", value: "7041044294" },
+    { label: "Staff", value: "7405099030" },
   ],
 };
 
