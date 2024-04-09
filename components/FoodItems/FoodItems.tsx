@@ -1,9 +1,16 @@
-// Import Food component as a React component
-import { FoodMenu } from "@/constants";
-import Food from "./Food";
-import Image from "next/image";
+"use client";
+import { useState } from 'react';
+import { FoodMenu } from '@/constants';
+import Food from './Food';
+import Image from 'next/image';
 
 const FoodItems = () => {
+  const [selectedCategory, setSelectedCategory] = useState('Chinese');
+
+  const handleCategoryChange = (category :string) => {
+    setSelectedCategory(category);
+  };
+
   return (
     <section id="menu" className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
       <div className="max-container padding-container relative w-full flex justify-end">
@@ -28,8 +35,23 @@ const FoodItems = () => {
             />
             <h2 className="bold-40 mt-4 lg:bold-64">Our Tasty Dishes</h2>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
-            {FoodMenu.map((food) => (
+
+          <div className="mt-10 ">
+            <div className="flex flex-wrap gap-2 ">
+              {FoodMenu.map((category) => (
+                <button
+                  key={category.category}
+                  className={`mr-4 px-4 py-2 rounded-lg font-mono mb-4 ${selectedCategory === category.category ? 'bg-slate-300' : 'bg-gray-100 hover:bg-gray-200 '}`}
+                  onClick={() => handleCategoryChange(category.category)}
+                >
+                  {category.category}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <ul className="grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
+            {FoodMenu.find((category) => category.category === selectedCategory)?.items.map((food) => (
               <Food
                 key={food.title}
                 title={food.title}
