@@ -173,9 +173,9 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: "Social",
   links: [
-    { icon: "/facebook.svg", link: "https://www.facebook.com/" },
-    { icon: "/instagram.svg", link: "https://www.instagram.com/" },
-    { icon: "/twitter.svg", link: "https://www.twitter.com/" },
-    { icon: "/youtube.svg", link: "https://www.youtube.com/" },
+    { icon: "/facebook.svg", link: "" },
+    { icon: "/instagram.svg", link: "" },
+    { icon: "/twitter.svg", link: "" },
+    { icon: "/youtube.svg", link: "" },
   ],
 };

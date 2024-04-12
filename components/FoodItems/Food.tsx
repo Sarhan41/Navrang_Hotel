@@ -14,7 +14,7 @@ const Food = ({ title, icon, description, price }: FoodProps) => {
         <div className="rounded-full bg-green-100 overflow-hidden" style={{ width: '170px', height: '100px' }}>
           <Image
             src={icon}
-            alt={title}
+            alt=""
             width={40}
             height={40}
             layout="responsive"
